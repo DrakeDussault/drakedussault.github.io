@@ -1,7 +1,84 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardian Safety Specialists</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-blue-600">Guardian Safety</a>
+      <div class="space-x-4">
+        <a href="#about" class="text-gray-600 hover:text-blue-600">About</a>
+        <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+        <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-blue-600 text-white">
+    <div class="container mx-auto px-4 py-20 text-center">
+      <h1 class="text-4xl font-bold">Professional Security Services</h1>
+      <p class="mt-4 text-lg">Keeping Lafayette and West Lafayette safe with top-notch patrol and armed guard services.</p>
+      <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-200">
+        Get in Touch
+      </a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-gray-800">About Us</h2>
+      <p class="mt-4 text-center text-gray-600">
+        At Guardian Safety Specialists, we provide superior security services to commercial properties, HOAs, and apartment complexes.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center text-gray-800">Our Services</h2>
+      <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-blue-600">Patrol Services</h3>
+          <p class="mt-2 text-gray-600">Our armed officers provide routine patrols to ensure the safety of your property.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-blue-600">Static Guards</h3>
+          <p class="mt-2 text-gray-600">Stationed guards for events, facilities, or specific locations.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow">
+          <h3 class="text-xl font-semibold text-blue-600">Emergency Response</h3>
+          <p class="mt-2 text-gray-600">Trained officers available to respond quickly to incidents at your property.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold text-gray-800">Contact Us</h2>
+      <p class="mt-4 text-gray-600">Ready to secure your property? Reach out to Guardian Safety Specialists today!</p>
+      <a href="mailto:info@guardiansafety.com" class="mt-6 inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+        Email Us
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Guardian Safety Specialists, LLC. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
