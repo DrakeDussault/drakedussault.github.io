@@ -12,37 +12,52 @@
   <style>
     @layer utilities {
       .bg-primary {
-        background-color: #1B2735;
-        /* Darker base background */
+        background-color: #121212;
+        /* Deep charcoal gray */
       }
   
       .bg-secondary {
-        background-color: #2A3A4B;
-        /* Lighter contrast background */
+        background-color: #1E1E1E;
+        /* Slightly lighter gray */
       }
   
       .text-primary {
-        color: #FFFFFF;
-        /* White for headings */
+        color: #EAEAEA;
+        /* Soft white */
       }
   
       .text-secondary {
-        color: #D1D5DB;
-        /* Light gray for body text */
+        color: #A5A5A5;
+        /* Muted gray */
       }
   
+      .accent {
+        background-color: #FFB400;
+        /* Muted amber */
+        color: #121212;
+        /* Deep charcoal for text on buttons */
+      }
+  
+      .accent:hover {
+        background-color: #E09E00;
+        /* Slightly darker amber */
+      }
+  
+      .border {
+        border-color: #333333;
+        /* Dark gray for dividers */
+      }
       .btn {
-        background-color: #1F4B63;
-        /* Modern dark teal */
-        color: #FFFFFF;
-      }
-  
-      .btn:hover {
-        background-color: #163D4F;
-        /* Darker hover teal */
-      }
+      background-color: #3A4BA3; /* Deep blue */
+      color: #EAEAEA; /* Soft white text */
+    }
+    .btn:hover {
+      background-color: #2E3B7A; /* Darker blue on hover */
+      color: #FFFFFF; /* Bright white text on hover */
+    }
     }
   </style>
+
 </head>
 
 <body class="bg-primary text-primary font-sans">
